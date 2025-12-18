@@ -16,7 +16,7 @@ export default function ProjectPrevNext({ previous, next }) {
             <Link
               to={previous.url}
               onClick={scrollToTop}
-              className="pointer-events-auto w-12 h-12 rounded-full bg-(--surface) border-2 border-(--bordercolor) hover:border-(--accent) hover:bg-(--accent) hover:text-(--accent-text) flex items-center justify-center transition-all shadow-lg group -ml-20"
+              className="project-nav-link pointer-events-auto w-12 h-12 rounded-full bg-(--surface) border-2 border-(--bordercolor) hover:border-(--accent) hover:bg-(--accent) hover:text-(--accent-text) flex items-center justify-center transition-all shadow-lg group -ml-20"
               title={`Vorige: ${previous.title}`}
             >
               <ArrowLeft className="w-6 h-6 text-(--muted) group-hover:text-(--accent) group-hover:-translate-x-0.5 transition-transform" aria-hidden />
@@ -30,7 +30,7 @@ export default function ProjectPrevNext({ previous, next }) {
             <Link
               to={next.url}
               onClick={scrollToTop}
-              className="pointer-events-auto w-12 h-12 rounded-full bg-(--surface) border-2 border-(--bordercolor) hover:border-(--accent) hover:bg-(--accent) hover:text-(--accent-text) flex items-center justify-center transition-all shadow-lg group -mr-20"
+              className="project-nav-link pointer-events-auto w-12 h-12 rounded-full bg-(--surface) border-2 border-(--bordercolor) hover:border-(--accent) hover:bg-(--accent) hover:text-(--accent-text) flex items-center justify-center transition-all shadow-lg group -mr-20"
               title={`Volgende: ${next.title}`}
             >
               <ArrowRight className="w-6 h-6 text-(--muted) group-hover:text-(--accent) group-hover:translate-x-0.5 transition-transform" aria-hidden />
