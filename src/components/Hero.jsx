@@ -10,6 +10,7 @@ export default function Hero() {
       <div className="container mx-auto flex flex-col items-center text-center relative z-10">
         
         {/* Profielfoto */}
+        
         <img
           src={siteConfig.aboutImage}
           alt={siteConfig.name}
